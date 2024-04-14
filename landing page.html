@@ -1,0 +1,153 @@
+<html>
+<style>
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: #f4f4f4;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+   padding: 20px;
+   background: #3747a6;
+   color: #fff;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+
+.logo {
+   font-size: 2em;
+   font-weight: bold;
+}
+
+.nav ul {
+   display: flex;
+   list-style: none;
+}
+
+.nav ul li {
+   margin: 0 15px;
+}
+
+.nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.search-bar {
+   display: flex;
+   align-items: center;
+}
+
+.search-bar input {
+   padding: 5px;
+   border: none;
+   border-radius: 20px;
+}
+
+.search-bar button {
+   padding: 5px 10px;
+   border: none;
+   border-radius: 20px;
+   background: #f44336;
+   color: #fff;
+}
+
+.content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px 0;
+}
+
+.image {
+   width: 50%;
+   height: 200px;
+   background: #f44336;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image .circle {
+   width: 50px;
+   height: 50px;
+   background: #fff;
+   border-radius: 50%;
+}
+
+.text {
+   width: 50%;
+   padding: 0 50px;
+}
+
+.text h1 {
+   font-size: 3em;
+   margin-bottom: 20px;
+}
+
+.text p {
+   font-size: 0.9em;
+   line-height: 1.5em;
+   margin-bottom: 20px;
+}
+
+.text .button {
+   display: inline-block;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px;
+   background: #fff;
+   color: #3747a6;
+   text-decoration: none;
+   margin-right: 10px;
+}
+
+.text .button:last-child {
+   margin-right: 0;
+}
+</style>
+<body>
+   <div class="container">
+       <div class="header">
+           <div class="logo">LANDING PAGE</div>
+           <div class="nav">
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Service</a></li>
+                   <li><a href="#">Product</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </div>
+           <div class="search-bar">
+               <input type="text" placeholder="Search">
+               <button>Go</button>
+           </div>
+       </div>
+       <div class="content">
+           <div class="image">
+               <div class="circle"></div>
+           </div>
+           <div class="text">
+               <h1>Graduation is not the end</h1>
+               <p>I learned many great lessons from my father, not the least of which was that you can fail at what you don't want, so you might as well take a chance on doing what you love.</p>
+               <a href="#" class="button">Registration</a>
+               <a href="#" class="button">More Info</a>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
